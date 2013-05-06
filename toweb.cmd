@@ -1,0 +1,1 @@
+for %%A in (chrome, openwebapp, webapp) do xcopy /S %%A ..\jigsawpuzzle-web\%%A 
