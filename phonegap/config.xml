@@ -1,0 +1,25 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<widget xmlns="http://www.w3.org/ns/widgets" xmlns:gap="http://phonegap.com/ns/1.0" id="josemoya.blogspot.com.jigsaw.phone" version="1.4.0.4">
+
+	<name>JigSawPuzzle</name>
+	<description>A jigsaw puzzle</description>
+	<author href="http://josemoya.blogspot.com" email="josemoya@gmail.com">Jose Moya</author>	<gap:platforms>
+		<gap:platform name="ios" />
+		<gap:platform name="android" />
+		<gap:platform name="webos" />
+		<gap:platform name="symbian.wrt" />
+		<gap:platform name="blackberry" project="widgets"/>
+	</gap:platforms>
+
+	<icon src="icon_128.png" width="128" height="128" gap:role="default" />
+
+	<preference name="permissions" value="none"/>
+
+	<feature name="http://api.phonegap.com/1.0/network"/>	<preference name="orientation" value="landscape" />
+	<preference name="fullscreen" value="true" />
+	<preference name="target-device" value="universal" />
+
+	<!-- Optional splash screen image, e.g.: -->
+	<!-- <gap:splash src="splash.png" width="1024" height="768" /> -->
+
+</widget>
