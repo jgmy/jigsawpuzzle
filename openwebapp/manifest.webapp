@@ -1,0 +1,19 @@
+{
+	"name": "JigSawPuzzle",
+	"description": "A jigsaw puzzle",
+	"version": "1.4.0.4",
+	"launch_path": "/varios/jigsaw_owapp/",
+	"orientation": ["portrait", "landscape"],
+	"icons": {
+		"16": "/varios/jigsaw_owapp/icon_16.png",
+		"32": "/varios/jigsaw_owapp/icon_32.png",
+		"128": "/varios/jigsaw_owapp/icon_128.png"
+	},
+	"developer": {
+		"name": "Jose G Moya",
+		"url": "http://josemoya.blogspot.com"
+	},
+	"default_locale": "en",
+	"fullscreen": "true",
+	"appcache_path": "/varios/jigsaw_owapp/offline.appcache"
+}

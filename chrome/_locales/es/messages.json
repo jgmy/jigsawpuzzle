@@ -1,0 +1,10 @@
+﻿{
+  "appName": {
+    "message": "JigSawPuzzle",
+    "description": "JigsawPuzzle."
+  },
+  "appDesc": {
+    "message": "Un puzzle", 
+    "description":"Este es simplemente un puzzle hecho con Construct2."
+  }
+}

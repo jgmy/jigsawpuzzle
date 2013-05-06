@@ -1,0 +1,10 @@
+﻿{
+  "appName": {
+    "message": "JigSawPuzzle",
+    "description": "JigsawPuzzle."
+  },
+  "appDesc": {
+    "message": "A Jigsaw Puzzle", 
+    "description":"This is a simple jigsaw puzzle made with Scirra's Construct 2."
+  }
+}
