@@ -2,8 +2,9 @@ rem overwrite placeholder icons inserted by Scirra Construct2
 for %%A in (16,32,64,128) do if exist chrome\icon_%%A.png copy Icon_Puzzle_%%A.png chrome\icon_%%A.png
 for %%A in (16,32,64,128) do if exist webapp\icon_%%A.png copy Icon_Puzzle_%%A.png webapp\icon_%%A.png
 for %%A in (16,32,64,128) do if exist openwebapp\icon_%%A.png copy Icon_Puzzle_%%A.png openwebapp\icon_%%A.png
-for %%A in (chrome, webapp, openwebapp) do if exist %%A\logo.png copy Icon_Puzzle_64.png %%A\logo.png
-for %%A in (chrome,webapp,openwebapp) do if exist %%A\*.* copy fruhling_bluhender_kirschenbaum.jpg %%A\
+for %%A in (16,32,64,128) do if exist ..\jigsawpuzzle_phg\icon_%%A.png copy Icon_Puzzle_%%A.png ..\jigsawpuzzle_phg\icon_%%A.png
+for %%A in (chrome, webapp, openwebapp,..\jigsawpuzzle_phg) do if exist %%A\logo.png copy Icon_Puzzle_64.png %%A\logo.png
+for %%A in (chrome,webapp,openwebapp,..\jigsawpuzzle_phg) do if exist %%A\*.* copy fruhling_bluhender_kirschenbaum.jpg %%A\
 
 rem modify chrome manifests
 rem detect if already modified
