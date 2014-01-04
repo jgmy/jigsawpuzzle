@@ -6,7 +6,7 @@
 	<title>JigSawPuzzle</title>
 	
 	<!-- Allow fullscreen mode on iOS devices. (These are Apple specific meta tags.) -->
-	<meta name="viewport" content="initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0, user-scalable=no, target-densitydpi=device-dpi" />
+	<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0, user-scalable=no, minimal-ui" />
 	<meta name="apple-mobile-web-app-capable" content="yes" />
 	<meta name="apple-mobile-web-app-status-bar-style" content="black" />
 	<meta name="HandheldFriendly" content="true" />
@@ -21,9 +21,13 @@
 			background: #000;
 			color: #fff;
 			overflow: hidden;
+			touch-action-delay: none;
+			touch-action: none;
 			-ms-touch-action: none;
 		}
 		canvas {
+			touch-action-delay: none;
+			touch-action: none;
 			-ms-touch-action: none;
 		}
     </style>
@@ -64,8 +68,5 @@
 	<script src="c2runtime.js"></script>
 
     <script src="c2webappstart.js"></script>
-    <button onclick="trytoinstallit()">Install this</button>
-
-    
 </body> 
 </html> 

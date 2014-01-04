@@ -1,19 +1,25 @@
-{
+﻿{
 	"name": "JigSawPuzzle",
 	"description": "A jigsaw puzzle",
-	"version": "1.4.0.4",
-	"launch_path": "/varios/jigsaw_owapp",
+	"version": "1.4.1.0",
+	"launch_path": "/jigsawpuzzle/openwebapp/",
 	"orientation": ["landscape"],
 	"icons": {
-		"16": "/varios/jigsaw_owapp/icon_16.png",
-		"32": "/varios/jigsaw_owapp/icon_32.png",
-		"128": "/varios/jigsaw_owapp/icon_128.png"
+		"16": "/jigsawpuzzle/openwebapp/icon-16.png",
+		"32": "/jigsawpuzzle/openwebapp/icon-32.png",
+		"128": "/jigsawpuzzle/openwebapp/icon-128.png",
+		"256": "/jigsawpuzzle/openwebapp/icon-256.png"
 	},
 	"developer": {
-		"name": "Jose G Moya",
+		"name": "JoseGMoya",
 		"url": "http://josemoya.blogspot.com"
 	},
 	"default_locale": "en",
-	"fullscreen": "true",
-	"appcache_path": "/varios/jigsaw_owapp/offline.appcache"
+	"permissions": {
+		"storage": {
+			"description": "Allows for offline mode"
+		}
+	},
+	"appcache_path": "/jigsawpuzzle/openwebapp/offline.appcache",
+	"fullscreen": "true"
 }
