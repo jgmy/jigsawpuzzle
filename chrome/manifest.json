@@ -1,17 +1,18 @@
 ﻿{
-	"name": "__MSG_appName__",
-	"description": "__MSG_appDesc__",
-"default_locale": "en",
-	"version": "1.4.0.5",
+	"name": "JigSawPuzzle",
+	"description": "A jigsaw puzzle",
+	"version": "1.4.1.0",
 	"manifest_version": 2,
+	"homepage_url": "http://josemoya.blogspot.com",
 	"app": {
 		"launch": {
 			"local_path": "index.html"
 		}
 	},
 	"icons": {
-		"16": "icon_16.png",
-		"128": "icon_128.png"
+		"16": "icon-16.png",
+		"128": "icon-128.png",
+		"256": "icon-256.png"
 	},
 	"permissions": [
 		"unlimitedStorage"
