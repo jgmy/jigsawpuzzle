@@ -20,3 +20,9 @@ Game code, piece shapes and buttons are intellectual property of the author of t
 Selectable puzzle pictures are took from different open media sites under open licenses. Author names and links to their licenses are provided.
 
 This game was made with Scirra Construct2 and include Scirra's runtime, which includes code from different sources.
+
+
+LINKS
+You can see a CAPX file for this game at the [Scirra arcade:](https://www.scirra.com/arcade/puzzle-games/jigsawpuzzle-2610)
+Also, you can see another CAPX for this game at [Apagada:](http://apagada.com/varios/)
+Finally, there is a tutorial on how did I do this game at [https://www.scirra.com/tutorials/685/making-a-jigsaw-puzzle-part-one-concept?
